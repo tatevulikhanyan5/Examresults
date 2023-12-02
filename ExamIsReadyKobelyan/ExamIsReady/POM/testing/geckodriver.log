@@ -1,0 +1,20 @@
+1701466341341	geckodriver	INFO	Listening on 127.0.0.1:52092
+1701466344401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52093" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofileY5cGGx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701466344841	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701466344935	Marionette	INFO	Listening on port 52101
+WebDriver BiDi listening on ws://127.0.0.1:52093
+Read port: 52101
+1701466345126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52093/devtools/browser/362137ea-bdba-4ef5-a1d6-9fdbfb55faac
+1701466375665	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701466398343	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1701466434807	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5217 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701466437740	Marionette	INFO	Stopped listening on port 52101
+JavaScript warning: https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY, line 10: Script terminated by timeout at:
+BOOMR_plugins_errors_wrap@https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY:10:182539
+
+Dynamically enable window occlusion 1

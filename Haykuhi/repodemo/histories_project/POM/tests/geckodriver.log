@@ -1,0 +1,28 @@
+1701460374556	geckodriver	INFO	Listening on 127.0.0.1:54098
+1701460377654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilelS6A8p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701460378423	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701460378548	Marionette	INFO	Listening on port 54108
+WebDriver BiDi listening on ws://127.0.0.1:54099
+Read port: 54108
+1701460378781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54099/devtools/browser/73332ef6-bdc1-4498-a830-351ef81c3207
+1701460408488	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701460437436	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1701460456491	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1701460471100	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6125 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7400 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.6pm.com."
+JavaScript warning: https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY, line 10: Script terminated by timeout at:
+done@https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY:10:135072
+page_unload@https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY:10:130881
+t@https://s2.go-mpulse.net/boomerang/FNR7L-CZUHT-QTY2E-EDRYP-ZAEQY:10:22286
+
+JavaScript warning: https://www.google.com/js/th/4MIqMSIrIBa2Tlo-FocJvTtTVUJhKzKWK9rP7XHIhmA.js line 2 > eval line 3673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701461763197	Marionette	INFO	Stopped listening on port 54108
+Dynamically enable window occlusion 1

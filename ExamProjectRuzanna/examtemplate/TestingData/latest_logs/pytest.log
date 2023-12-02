@@ -1,0 +1,45 @@
+21:57:03 DEBUG driver not found in PATH, trying Selenium Manager
+21:57:03 DEBUG Executing: C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox
+21:57:03 DEBUG Using driver at: C:\Users\LENOVO\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+21:57:04 DEBUG Started executable: `geckodriver` in a child process with pid: 21004
+21:57:05 DEBUG POST http://localhost:64039/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}}
+21:57:05 DEBUG Starting new HTTP connection (1): localhost:64039
+21:57:09 DEBUG http://localhost:64039 "POST /session HTTP/1.1" 200 745
+21:57:09 DEBUG Remote response: status=200 | data={"value":{"sessionId":"0c27c4e4-9860-4b80-812e-26907f424790","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"120.0","moz:accessibilityChecks":false,"moz:buildID":"20231116134553","moz:debuggerAddress":"127.0.0.1:64040","moz:geckodriverVersion":"0.33.0","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":12052,"moz:profile":"C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilePPPnJe","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '745', 'date': 'Fri, 01 Dec 2023 17:57:07 GMT'})
+21:57:09 DEBUG Finished Request
+21:57:09 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/timeouts {"implicit": 10000}
+21:57:09 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/timeouts HTTP/1.1" 200 14
+21:57:09 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 01 Dec 2023 17:57:09 GMT'})
+21:57:09 DEBUG Finished Request
+21:57:09 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/url {"url": "https://www.6pm.com/"}
+21:58:37 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/url HTTP/1.1" 200 14
+21:58:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 01 Dec 2023 17:57:09 GMT'})
+21:58:37 DEBUG Finished Request
+21:58:37 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/element {"using": "css selector", "value": ".ta-z"}
+21:58:37 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/element HTTP/1.1" 200 88
+21:58:37 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"39fe3f9c-9307-4a4e-84c9-99c04f569874"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Fri, 01 Dec 2023 17:58:37 GMT'})
+21:58:37 DEBUG Finished Request
+21:58:37 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/execute/sync {"script": "arguments[0].scrollIntoView();", "args": [{"element-6066-11e4-a52e-4f735466cecf": "39fe3f9c-9307-4a4e-84c9-99c04f569874"}]}
+21:58:37 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/execute/sync HTTP/1.1" 200 14
+21:58:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 01 Dec 2023 17:58:37 GMT'})
+21:58:37 DEBUG Finished Request
+21:58:37 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/element/39fe3f9c-9307-4a4e-84c9-99c04f569874/click {"id": "39fe3f9c-9307-4a4e-84c9-99c04f569874"}
+21:58:37 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/element/39fe3f9c-9307-4a4e-84c9-99c04f569874/click HTTP/1.1" 200 14
+21:58:37 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 01 Dec 2023 17:58:37 GMT'})
+21:58:37 DEBUG Finished Request
+21:58:37 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/element {"using": "css selector", "value": ".Zo-z"}
+21:58:37 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/element HTTP/1.1" 200 88
+21:58:37 DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"0da77159-13cf-46b8-a17f-2820d32e874f"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Fri, 01 Dec 2023 17:58:37 GMT'})
+21:58:37 DEBUG Finished Request
+21:58:37 DEBUG GET http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/element/0da77159-13cf-46b8-a17f-2820d32e874f/text {"id": "0da77159-13cf-46b8-a17f-2820d32e874f"}
+21:58:37 DEBUG http://localhost:64039 "GET /session/0c27c4e4-9860-4b80-812e-26907f424790/element/0da77159-13cf-46b8-a17f-2820d32e874f/text HTTP/1.1" 200 18
+21:58:37 DEBUG Remote response: status=200 | data={"value":"My Bag"} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '18', 'date': 'Fri, 01 Dec 2023 17:58:37 GMT'})
+21:58:37 DEBUG Finished Request
+21:58:37 DEBUG POST http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790/element {"using": "xpath", "value": "/html/body/div[9]/div/div[2]/div[1]/a[2]"}
+21:58:47 DEBUG http://localhost:64039 "POST /session/0c27c4e4-9860-4b80-812e-26907f424790/element HTTP/1.1" 404 424
+21:58:47 DEBUG Remote response: status=404 | data={"value":{"error":"no such element","message":"Unable to locate element: /html/body/div[9]/div/div[2]/div[1]/a[2]","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:507:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16\n"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '424', 'date': 'Fri, 01 Dec 2023 17:58:37 GMT'})
+21:58:47 DEBUG Finished Request
+21:58:48 DEBUG DELETE http://localhost:64039/session/0c27c4e4-9860-4b80-812e-26907f424790 {}
+21:58:51 DEBUG http://localhost:64039 "DELETE /session/0c27c4e4-9860-4b80-812e-26907f424790 HTTP/1.1" 200 14
+21:58:51 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Fri, 01 Dec 2023 17:58:47 GMT'})
+21:58:51 DEBUG Finished Request
